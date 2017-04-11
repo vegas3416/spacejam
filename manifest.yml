@@ -1,0 +1,9 @@
+---
+applications:
+ - name: C2Luke
+   random-route: true
+   memory: 256M
+   
+env:
+ - process.env.APPID: test1
+   process.env.APPSECRET: test
