@@ -5,5 +5,5 @@ applications:
    memory: 256M
    
 env:
- -  APP_ID: process.env.APPID
+ -  APPID: APP_ID
  
