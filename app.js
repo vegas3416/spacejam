@@ -93,7 +93,7 @@ app.post("/webhook", function(req, res) {
     else if (body.content.indexOf("@addspace") > -1) {
 
       console.log("At space:");
-      var msg = "https://workspace.ibm.com/enableApp?shareToken=bf300a48-eb9b-4f22-b169-92b0ca20bc65";
+      var msg = process.env.SHARELINK;
 
       sendMessage(msg, "blue", master);
 
