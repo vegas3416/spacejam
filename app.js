@@ -8,11 +8,11 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 
-var APP_ID = "58ddcb29-a4b2-46fb-b9c4-90bdeb0164b7";
-var APP_SECRET = "1sijffcla0fhk4i6q3iurk27umrievb0";
+var APP_ID = process.env.APPID;
+var APP_SECRET = process.env.APPSECRET;
 
 //Different from production
-var WEBHOOK_SECRET = "52py7cs5z2hp67b8vqiiyr9cqjbgxpqk";
+var WEBHOOK_SECRET;
 
 
 const WWS_URL = "https://api.watsonwork.ibm.com";
