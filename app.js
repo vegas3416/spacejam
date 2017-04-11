@@ -12,7 +12,7 @@ var APP_ID = process.env.APPID;
 var APP_SECRET = process.env.APPSECRET;
 
 //Different from production
-var WEBHOOK_SECRET;
+var WEBHOOK_SECRET = process.env.WEBSECRET;
 
 
 const WWS_URL = "https://api.watsonwork.ibm.com";
