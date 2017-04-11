@@ -5,5 +5,5 @@ applications:
    memory: 256M
    
 env:
- - process.env.APPID: test1
-   process.env.APPSECRET: test
+ -  APP_ID: process.env.APPID
+ 
